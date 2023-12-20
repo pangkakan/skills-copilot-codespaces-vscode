@@ -1,3 +1,6 @@
 function skillsMember() {
-    console.log('I am a member of the team')
+    return {
+        restrict: 'E',
+        templateUrl: 'templates/skills-member.html'
+    };
 }
