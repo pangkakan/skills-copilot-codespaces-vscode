@@ -1,0 +1,22 @@
+
+{
+"name": "Codespace for Skills!",
+"image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+
+"remoteUser": "codespace",
+"overrideCommand": false,
+ "customizations": {
+     "vscode": {
+         "extensions": [
+             "GitHub.copilot"
+         ]
+     },
+     "codespaces": {
+         "openFiles": [
+             "codespace.md"
+         ]
+     }
+  }
+ ,
+ "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
+}
